@@ -6,4 +6,4 @@ app.get("/", function (req, res) {
 	res.end("hehe");
 });
 
-app.listen(8080);
+app.listen(process.env.PORT || 3000);
