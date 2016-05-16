@@ -3,6 +3,8 @@ var url = require('url');
 
 var app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 app.get("/:str", function (req, res) {
 	// var pURL = url.parse(req.url, true);
 	var result = {};
