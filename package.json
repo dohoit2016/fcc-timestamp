@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/projectit3910/fcc-timestamp/issues"
   },
-  "homepage": "https://github.com/projectit3910/fcc-timestamp#readme"
+  "homepage": "https://github.com/projectit3910/fcc-timestamp#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
